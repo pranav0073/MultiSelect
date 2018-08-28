@@ -43,7 +43,7 @@
             </span>
           </div>
 
-          <div class="{!'slds-dropdown  slds-dropdown_fluid slds-dropdown_length-5' + v.dropdownLength}" onmouseenter="{!c.handleMouseEnter}" onmouseleave="{!c.handleMouseLeave}" role="listbox">
+          <div class="{!'picklist-ht slds-dropdown  slds-dropdown_fluid slds-dropdown_length-5' + v.dropdownLength}" onmouseenter="{!c.handleMouseEnter}" onmouseleave="{!c.handleMouseLeave}" role="listbox">
             <ul class="slds-listbox slds-listbox_vertical" role="presentation">
               <aura:iteration items="{!v.options_}" var="option">
                 <li class="slds-listbox__item" role="presentation" onclick="{!c.handleSelection}" data-value="{!option.value}" data-selected="{!option.selected}">
